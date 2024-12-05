@@ -1,0 +1,168 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px dotted yellow; */
+}
+
+body {
+    /* padding: 0 100px; */
+}
+
+.header, .footer, .section-one {
+   background-color: #1f2937; 
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 100px;
+}
+
+.header-link ul, a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+/* Hero */
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text, .header-link, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-one {
+    padding: 50px 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-desc {
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+
+.btnSignUp-one {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 8px 32px;
+    align-self: flex-start;
+}
+
+.hero-image img {
+    max-width: 100%;
+    width: 600px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+/* Section two */
+
+.section-two {
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 64px;
+    gap: 64px;
+}
+
+.section-two h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 32px;
+}
+
+.info {
+    width: 200px;
+}
+
+.section-two img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Section three */
+
+.section-three {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: justify;
+    padding: 100px 250px;
+}
+
+.quoteBy {
+    text-align: right;
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* Section four */
+
+.section-four-container {
+    padding: 100px;
+}
+
+.section-four {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 80px 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e7eb;
+    gap: 20px;
+}
+
+.hero-four {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.btnSignUp-four a {
+    text-decoration: none;
+    color: #e5e7eb;
+    border: 1px solid white;
+    padding: 8px 32px;
+    border-radius: 10px;
+}
+
+/* Footer */
+ .footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px 0;
+ }
