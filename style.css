@@ -86,7 +86,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: 64px;
+    padding: 100px;
     gap: 64px;
 }
 
@@ -106,7 +106,14 @@ body {
     width: 200px;
 }
 
+.info p {
+    padding-top: 15px;
+    text-align: justify;
+}
+
 .section-two img {
+    border: #3882f6 5px solid;
+    border-radius: 15px;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -138,7 +145,7 @@ body {
 .section-four {
     background-color: #3882f6;
     border-radius: 15px;
-    padding: 80px 60px;
+    padding: 80px 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
